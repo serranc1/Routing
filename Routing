@@ -1,3 +1,9 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "Structures.h"
+#include "config.h"
+#include <unistd.h>
+
 float CalculateDistance(int a, int b, int c, int d, float distance) {
         float distancer = distance;
         float distancef = distance;
