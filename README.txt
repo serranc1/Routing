@@ -6,5 +6,9 @@ How the routing algorithm works:
   traversable areas and 1's representing obstructed areas.
 - The routing algorithm chooses the shortest route using only horizontal and vertical movements. If there is an obstacle in the way of the
   optimal route, the routing algorithm compares the total distance added by each way around the obstacle and chooses the shorter route.
-- The routing algorithm calculates the total distance required to travel as well as the directions to take at each step of the route
+- The routing algorithm calculates the total distance required to travel at each step of the route.
   calculation.
+- When using the unit test of the routing function, the directions needed to be taken for the optimal route are printed.
+
+Comments:
+- This routing algorithm was originally purposed for a taxi management system project.
